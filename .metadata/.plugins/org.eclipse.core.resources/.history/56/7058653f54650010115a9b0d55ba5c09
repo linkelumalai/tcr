@@ -1,0 +1,22 @@
+package learn.dateandtime;
+
+import java.util.Date;
+
+public class LegacyDateAPIDemo {
+
+	public static void main(String[] args) {
+		Date date = new Date();
+		System.out.println(date); // in this object date and time forced to use
+		// in date constructor that return the system.timemillisec
+		// and then calculate based on the Epoch fixed time and time
+
+		System.out.println(date.getTime());
+
+		Date date1 = new Date(200, 8, 26, 8, 45, 90);
+		System.out.println(date1); // Sun Sep 26 08:46:30 IST 2100
+
+		// in computer , Epoch is a fixed date and time used as
+		// reference from which computer measures system time
+
+	}
+}

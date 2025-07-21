@@ -1,0 +1,9 @@
+package learn.predefinedutilsfunction;
+
+public class SupplierDemo {
+
+	// there is no static and default method of interface
+	public static void main(String[] args) {
+		
+	}
+}

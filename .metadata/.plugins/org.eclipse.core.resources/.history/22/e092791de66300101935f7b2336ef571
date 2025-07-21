@@ -1,0 +1,9 @@
+package learn.lamdaexpression;
+
+public class SumUsingIAddFI {
+
+	public static void main(String[] args) {
+
+	}
+
+}

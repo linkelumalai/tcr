@@ -1,0 +1,30 @@
+package learn.lamdaexpression;
+
+import learn.lamdaexpression.interfc.IVoid;
+
+public class GetNameUsingVoidInterface {
+
+	public static void main(String[] args) {
+
+		IVoid test = (str) -> {
+			System.out.println("hello how are you " + str);
+		};
+
+		test.getName("Lingadharan");
+
+		// we can also use like this
+
+		IVoid test2 = (str) -> System.out.println("hey there how are you " + str); // approach 1
+
+		process(test2, "Lingadharan");
+
+		// approach 2 is
+
+		process((str) -> System.out.println("Hi..  Nice to meet you" + str), "Lucky");
+	}
+
+	public static void process(IVoid greetings, String str) {
+		greetings.getName(str);
+	}
+
+}

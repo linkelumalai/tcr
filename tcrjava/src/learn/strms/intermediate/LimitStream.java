@@ -1,0 +1,12 @@
+package learn.strms.intermediate;
+
+import java.util.Random;
+import java.util.stream.Stream;
+
+public class LimitStream {
+	public static void main(String[] args) {
+
+		Stream.generate(new Random()::nextInt).filter(data -> data % 2 == 0).limit(10).map(data -> data * 2)
+				.forEach(System.out::println);
+	}
+}

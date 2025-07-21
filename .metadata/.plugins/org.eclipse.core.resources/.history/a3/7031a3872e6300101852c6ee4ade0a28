@@ -1,0 +1,51 @@
+package learn.strms.terminal;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
+public class CollectAndThenMethod {
+
+	public static void main(String[] args) {
+
+		List<Product> products = Arrays.asList(new Product("Apple", 117000.00), new Product("Samsung", 117000.00),
+				new Product("one plus", 24000.00), new Product("moto", 30000.00), new Product("nothing", 24000.00));
+
+		String maxPriceProductName = products.stream()
+				.collect(Collectors.collectingAndThen(Collectors.maxBy(Comparator.comparing(Product::getPrice)),
+						(productOptional) -> productOptional.isPresent() ? productOptional.get().getName() : "none"));
+
+		System.out.println(maxPriceProductName);
+	}
+}
+
+class Product {
+
+	private String name;
+
+	private double price;
+
+	public Product(String name, double price) {
+		this.name = name;
+		this.price = price;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+}

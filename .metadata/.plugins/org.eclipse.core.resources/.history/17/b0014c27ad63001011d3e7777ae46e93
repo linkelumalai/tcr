@@ -1,0 +1,20 @@
+package learn.methodref;
+
+public class StaticMethodRef {
+
+	public static void main(String[] args) {
+
+		ArithmeticPreformance opr = (a, b) -> {
+			int sum = a + b;
+			System.out.println(sum);
+			return sum;
+		};
+
+		opr.perform(6, 7);
+	}
+
+	public static int AddtionPrefom(int a, int b) {
+		int sum = a + b;
+		return sum;
+	}
+}

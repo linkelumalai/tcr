@@ -1,0 +1,10 @@
+package learn.lamdaexpression;
+
+public class TransformStringUsingLamdaExpression {
+
+}
+
+@FunctionalInterface
+interface Transfomer {
+	String transform(String str);
+}

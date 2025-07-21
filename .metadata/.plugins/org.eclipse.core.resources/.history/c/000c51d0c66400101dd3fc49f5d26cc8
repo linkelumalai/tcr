@@ -1,0 +1,16 @@
+package learn.predefinedutilsfunction;
+
+import java.util.function.Consumer;
+
+// only consume not return
+public class ConsumerDemo {
+
+	public static void main(String[] args) {
+
+		Consumer<String> convertAndDisplay = input -> System.out.println(input.toUpperCase());
+		convertAndDisplay.accept("lucky");
+
+		Consumer<Integer> sq = input -> System.out.println(input * input);
+		convertAndDisplay.accept("lucky");
+	}
+}

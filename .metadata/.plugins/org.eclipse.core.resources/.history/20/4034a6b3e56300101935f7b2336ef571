@@ -1,0 +1,7 @@
+package learn.lamdaexpression.interfc;
+
+@FunctionalInterface
+public interface IAddFI {
+
+	int sum(int a, int b);
+}

@@ -1,0 +1,34 @@
+package learn.lamdaexpression;
+
+import learn.lamdaexpression.interfc.IVoid;
+
+public class AnonymousInterface {
+
+	public static void main(String[] args) {
+
+		// Anonymous inner class example
+		IVoid hello = new IVoid() {
+
+			@Override
+			public void getName(String name) {
+
+				System.out.println("Hey welcome " + name + this.getClass().getCanonicalName());
+			}
+		};
+
+		process(hello, "Lucky"); // changing the method behaviour using the anonymous class
+
+		process(new IVoid() {
+
+			@Override
+			public void getName(String name) {
+				System.out.println("Hey there ! how are you " + name);
+
+			}
+		}, "Lingadharan");
+	}
+
+	public static void process(IVoid hello, String str) {
+		hello.getName(str);
+	}
+}

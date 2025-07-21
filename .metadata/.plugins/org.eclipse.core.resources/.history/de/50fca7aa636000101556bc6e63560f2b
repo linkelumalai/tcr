@@ -1,0 +1,23 @@
+package learn.strms;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Predicate;
+
+public class FilterStream {
+
+	public static void main(String[] args) {
+		List<String> names = new ArrayList<>();
+		names.add("leo");
+		names.add("lucky");
+		names.add("lingadharan");
+		names.add("Joseph");
+		names.add("Elumalai");
+		// filter method internally using the Predicate<T>
+		names.stream().map(data -> data.toUpperCase()).filter(word -> word.startsWith("L")).forEach(System.out::println);
+
+		Predicate<String> checkStartsWithLandendwithn = str -> str.startsWith("l") && str.endsWith("n");
+
+		names.stream().filter(checkStartsWithLandendwithn).forEach(System.out::println);
+	}
+}

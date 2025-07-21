@@ -1,0 +1,14 @@
+package learn.dateandtime;
+
+import java.util.Date;
+
+public class LegacyDateAPIDemo {
+
+	public static void main(String[] args) {
+		Date date = new Date();
+		System.out.println(date); // in this object date and time forced to use
+
+		Date date1 = new Date(200, 8, 26);
+		System.out.println(date1);
+	}
+}

@@ -1,0 +1,19 @@
+package learn.predefinedutilsfunction;
+
+import java.util.function.UnaryOperator;
+
+public class UnaryOperatorDemo {
+
+	public static void main(String[] args) {
+			
+		UnaryOperator<String> convertStr = String::toUpperCase; 
+		// or else
+		UnaryOperator<String> convertStr2 = input -> input.toUpperCase(); 
+		
+		
+		System.out.println(convertStr.apply("lucky"));
+		
+		System.out.println(convertStr2.apply("lingadharan"));
+
+	}
+}

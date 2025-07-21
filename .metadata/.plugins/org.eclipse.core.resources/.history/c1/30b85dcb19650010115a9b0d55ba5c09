@@ -1,0 +1,14 @@
+package learn.lamdaexpression;
+
+public class LamdaLexical {
+
+	public static void main(String[] args) {
+		String input = "Lucky";
+		Printer printer = input -> System.out.println("hellow"+input);
+	}
+}
+
+@FunctionalInterface
+interface Printer {
+	void printer(String input);
+}

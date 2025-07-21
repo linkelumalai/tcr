@@ -1,0 +1,8 @@
+package learn.lamdaexpression;
+
+import learn.lamdaexpression.interfc.IArithmetic;
+
+public class SumUsingIAddFI {
+
+
+}

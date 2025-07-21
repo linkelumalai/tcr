@@ -1,0 +1,14 @@
+package learn.lamdaexpression;
+
+import learn.lamdaexpression.interfc.IVoid;
+
+public class AnonymousInterface {
+
+	public static void main(String[] args) {
+
+	}
+
+	public static void process(IVoid hello, String str) {
+		hello.getName(str);
+	}
+}

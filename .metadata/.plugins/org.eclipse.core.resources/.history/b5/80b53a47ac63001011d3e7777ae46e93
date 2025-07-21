@@ -1,0 +1,5 @@
+package learn.methodref;
+
+public interface ArithmeticPreformance {
+
+}

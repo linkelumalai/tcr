@@ -1,0 +1,8 @@
+package learn.strms;
+
+public class LimitStream {
+	public static void main(String[] args) {
+		
+		
+	}
+}

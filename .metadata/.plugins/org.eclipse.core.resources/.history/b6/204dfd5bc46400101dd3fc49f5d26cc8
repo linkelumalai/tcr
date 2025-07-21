@@ -1,0 +1,31 @@
+package learn.predefinedutilsfunction;
+
+import java.util.function.Function;
+import java.util.function.UnaryOperator;
+
+// internally unary operator using the function with same input and output purpose 
+public class UnaryOperatorDemo {
+
+	public static void main(String[] args) {
+
+		UnaryOperator<String> convertStr = String::toUpperCase;
+		// or else
+		UnaryOperator<String> convertStr2 = input -> input.toUpperCase();
+
+		System.out.println(convertStr.apply("lucky"));
+
+		System.out.println(convertStr2.apply("lingadharan"));
+
+		UnaryOperator<Integer> doubleValue = num -> num * 2;
+		UnaryOperator<Integer> addThree = num -> num + 3;
+
+		// when use the unary we can access the unaray via the and then we can directly use the 
+		// function interface because it is inherited by the unary interface , in the below code we don't want 
+		// casting as function also
+		
+		Function<Integer, Integer> ouput1 = doubleValue.andThen(addThree);
+		Function<Integer, Integer> output2 = doubleValue.compose(addThree);
+		
+		
+	}
+}

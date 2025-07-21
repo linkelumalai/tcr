@@ -1,0 +1,16 @@
+package learn.predefinedutilsfunction;
+
+import java.util.function.BiFunction;
+import java.util.function.BiPredicate;
+
+public class BiFunctionalDemo {
+
+	public static void main(String[] args) {
+
+		BiPredicate<Integer, Integer> isEvenSumOfNumbers = (num1, num2) -> (num1 + num2) % 2 == 0;
+		System.out.println(isEvenSumOfNumbers.test(20, 1));// false
+
+		BiFunction<Double, Double, Double> powerofNumber = (num1, num2) -> Math.pow(num1, num2);
+		System.out.println(powerofNumber.apply(2.00, 8.00));
+	}
+}

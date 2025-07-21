@@ -1,0 +1,20 @@
+package learn.strms;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class StreamTraversal {
+	public static void main(String[] args) {
+		List<String> department = new ArrayList<>();
+		department.add("CSE");
+		department.add("Mech");
+		department.add("ECE");
+		department.add("Civil");
+
+		Stream<String> deptStream = department.stream();
+		department.forEach(System.out::println);
+		department.forEach(System.out::println);
+
+	}
+}

@@ -1,0 +1,65 @@
+package learn.strms.terminal;
+
+import java.util.List;
+
+public class FindingAndMatching {
+
+	public static void main(String[] args) {
+
+	}
+
+	public static List<Item> getItems() {
+		return List.of();
+	}
+}
+
+class Item {
+	private String itemName;
+
+	private Double itemValue;
+
+	private Boolean isStock;
+
+	private Boolean onSale;
+
+	public String getItemName() {
+		return itemName;
+	}
+
+	public void setItemName(String itemName) {
+		this.itemName = itemName;
+	}
+
+	public Double getItemValue() {
+		return itemValue;
+	}
+
+	public void setItemValue(Double itemValue) {
+		this.itemValue = itemValue;
+	}
+
+	public Boolean getIsStock() {
+		return isStock;
+	}
+
+	public void setIsStock(Boolean isStock) {
+		this.isStock = isStock;
+	}
+
+	public Boolean getOnSale() {
+		return onSale;
+	}
+
+	public void setOnSale(Boolean onSale) {
+		this.onSale = onSale;
+	}
+
+	public Item(String itemName, Double itemValue, Boolean isStock, Boolean onSale) {
+		super();
+		this.itemName = itemName;
+		this.itemValue = itemValue;
+		this.isStock = isStock;
+		this.onSale = onSale;
+	}
+
+}

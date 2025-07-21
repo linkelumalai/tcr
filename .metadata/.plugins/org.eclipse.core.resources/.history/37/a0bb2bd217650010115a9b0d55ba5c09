@@ -1,0 +1,10 @@
+package learn.lamdaexpression;
+
+public class LamdaLexical {
+
+}
+
+@FunctionalInterface
+interface Printer {
+	void printer(String input);
+}
