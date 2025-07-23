@@ -1,0 +1,13 @@
+package learn.dateandtime;
+
+import java.sql.Date;
+
+public class SqlDate {
+
+	// java.util.date it will return both date and time 
+	// sql.date will return only date is also accept the echop time of system.current millisec();
+	public static void main(String[] args) {
+		Date date = new Date(System.currentTimeMillis()); 
+		
+	}
+}

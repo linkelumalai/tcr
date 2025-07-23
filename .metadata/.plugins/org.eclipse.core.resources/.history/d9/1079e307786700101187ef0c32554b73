@@ -1,0 +1,11 @@
+package learn.dateandtime;
+
+import java.sql.Date;
+
+public class SqlDate {
+
+	public static void main(String[] args) {
+		Date date = new Date(System.currentTimeMillis()); 
+		
+	}
+}

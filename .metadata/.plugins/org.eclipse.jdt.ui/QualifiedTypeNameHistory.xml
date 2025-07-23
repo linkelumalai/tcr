@@ -51,4 +51,6 @@
     <fullyQualifiedTypeName name="learn.lamdaexpression.ThisDemoLamdaExpression"/>
     <fullyQualifiedTypeName name="learn.lamdaexpression.Printer"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.text.DateFormat"/>
 </qualifiedTypeNameHistroy>
