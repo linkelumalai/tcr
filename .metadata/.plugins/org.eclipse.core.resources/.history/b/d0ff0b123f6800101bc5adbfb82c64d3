@@ -1,0 +1,18 @@
+package learn.dateandtime.newtimeapi;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+
+public class ToAndAtMethods {
+
+	public static void main(String[] args) {
+		LocalDateTime dateTime = LocalDateTime.now(); 
+		
+		LocalDate dateOnly = dateTime.toLocalDate(); 
+		LocalTime timeOnly = dateTime.toLocalTime();
+		
+		System.out.println(timeOnly);
+		System.out.println(dateOnly);
+	}
+}

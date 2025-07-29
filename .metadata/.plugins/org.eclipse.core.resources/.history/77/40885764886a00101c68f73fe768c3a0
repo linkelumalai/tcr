@@ -1,0 +1,14 @@
+package learn.enum_;
+
+public class PriorityUtil {
+
+	public static int getPriorty(int priority) {
+		return switch (priority) {
+		case Priority.LOW -> 7; 
+		case Priority.HIGH -> 4; 
+	
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + priority);
+		}
+	}
+}

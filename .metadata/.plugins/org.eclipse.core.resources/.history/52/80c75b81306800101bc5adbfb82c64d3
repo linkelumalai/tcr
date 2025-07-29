@@ -1,0 +1,18 @@
+package learn.dateandtime;
+
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+public class CalenderDemo {
+
+	public static void main(String[] args) {
+		Calendar currentDate = Calendar.getInstance();
+		System.out.println(currentDate);
+
+		GregorianCalendar gregorianCalendar = new GregorianCalendar(2026, Calendar.JANUARY, 1);
+		Date currentDateObj = gregorianCalendar.getTime();
+
+		System.out.println(currentDate);
+	}
+}

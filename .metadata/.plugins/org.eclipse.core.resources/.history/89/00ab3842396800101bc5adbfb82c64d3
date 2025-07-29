@@ -1,0 +1,12 @@
+package learn.dateandtime.newtimeapi;
+
+import java.time.LocalDateTime;
+import java.time.Month;
+
+public class FromAndWithMethodDemo {
+
+	public static void main(String[] args) {
+		LocalDateTime dateTime = LocalDateTime.of(2015, Month.MARCH, 18, 22, 30);
+		System.out.println(dateTime);
+	}
+}

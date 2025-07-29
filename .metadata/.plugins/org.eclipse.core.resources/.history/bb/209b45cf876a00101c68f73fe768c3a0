@@ -1,0 +1,5 @@
+package learn.enum_;
+
+public enum Priority {
+
+}

@@ -1,0 +1,14 @@
+package learn.enum_;
+
+import java.util.EnumSet;
+
+public class EnumSetDemo {
+
+	public static void main(String[] args) {
+		EnumSet<Priority> allPriorities = EnumSet.allOf(Priority.class);
+
+		for (Priority priority : allPriorities) {
+			System.out.println(priority);
+		}
+	}
+}

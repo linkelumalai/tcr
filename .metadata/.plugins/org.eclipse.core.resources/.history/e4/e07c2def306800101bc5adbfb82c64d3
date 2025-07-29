@@ -1,0 +1,32 @@
+package learn.dateandtime;
+
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+public class CalenderDemo {
+
+	public static void main(String[] args) {
+		Calendar currentDate = Calendar.getInstance();
+		System.out.println(currentDate);
+
+		GregorianCalendar gregorianCalendar = new GregorianCalendar(2026, Calendar.JANUARY, 1);
+		Date currentDateObj = gregorianCalendar.getTime();
+
+		System.out.println(currentDate);
+
+		int year = gregorianCalendar.get(Calendar.YEAR);
+		int month = gregorianCalendar.get(Calendar.MONTH);
+		// like wise we can able to fetch the date, time and time in millisec
+		// Addtionally , we can also set the date using set method
+		System.out.println(year);
+
+		gregorianCalendar.set(Calendar.YEAR, 2027);
+
+		System.out.println(gregorianCalendar.get(Calendar.YEAR));
+		
+		
+		// formating the date 
+		
+	}
+}

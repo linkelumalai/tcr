@@ -1,7 +1,5 @@
 package tcrjava.leetcode.string;
 
-import java.util.concurrent.atomic.AtomicInteger;
-
 public class MultiplyString {
 
 	public static void main(String[] args) {

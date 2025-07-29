@@ -1,5 +1,0 @@
-package learn.lamdaexpression.interfc;
-
-public interface IVoid {
-
-}

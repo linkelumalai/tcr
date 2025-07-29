@@ -1,0 +1,13 @@
+package learn.enum_;
+
+public enum AdvanceEnum {
+
+	
+	LOW(7), MEDIUM(5), HIGH(2), URGENT(1);
+
+	private int estimatedComplitionDays;
+
+	AdvanceEnum(int estimatedComplitionDays) {
+		this.estimatedComplitionDays = estimatedComplitionDays;
+	}
+}

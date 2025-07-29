@@ -1,0 +1,13 @@
+package learn.enum_;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+
+		for (Priority priority : Priority.values()) {
+			String name = priority.name();
+			int oridianl = priority.ordinal();
+			System.out.println(name + "(" + oridianl + ")");
+		}
+	}
+}

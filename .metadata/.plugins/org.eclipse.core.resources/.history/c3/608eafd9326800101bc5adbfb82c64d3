@@ -1,0 +1,12 @@
+package learn.dateandtime;
+
+import java.text.SimpleDateFormat;
+import java.util.TimeZone;
+
+public class TimeZoneSpecific {
+
+	public static void main(String[] args) {
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MMMM-dd HH:mm:ss");
+		dateFormat.setTimeZone("America/New_York");
+	}
+}

@@ -1,0 +1,3 @@
+spirng:
+  application:
+    name:"configserver"
