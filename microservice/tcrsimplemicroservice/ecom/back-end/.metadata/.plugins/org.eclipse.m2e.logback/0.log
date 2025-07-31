@@ -1589,3 +1589,213 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2025-07-31 04:51:16,947 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
 2025-07-31 04:51:16,960 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
 2025-07-31 04:51:16,964 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/wishlist/src/test/resources
+2025-08-01 00:58:30,178 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 00:58:30,182 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 00:58:30,185 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/product/src/test/resources
+2025-08-01 00:59:06,974 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 00:59:06,983 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 00:59:06,985 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/product/src/test/resources
+2025-08-01 00:59:36,215 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 00:59:36,224 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 00:59:36,226 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/product/src/test/resources
+2025-08-01 01:01:10,554 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:01:10,564 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:01:10,567 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:01:45,255 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:01:45,257 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:01:45,260 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:01:57,761 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:01:57,762 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:01:57,764 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:02:09,400 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:02:09,401 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:02:09,403 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:02:29,925 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:02:29,926 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:02:29,928 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:02:43,134 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:02:43,134 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:02:43,136 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:02:54,796 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:02:54,796 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:02:54,798 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:03:09,141 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:03:09,142 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:03:09,144 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:03:26,368 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:03:26,368 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:03:26,370 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:04:31,776 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:04:31,776 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:04:31,779 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:05:06,035 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:05:06,036 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:05:06,039 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:05:48,302 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:05:48,303 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:05:48,308 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:10:51,299 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:10:51,299 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:10:51,301 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:11:09,787 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:11:09,787 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:11:09,789 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:11:20,838 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:11:20,839 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:11:20,843 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:11:30,723 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:11:30,724 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:11:30,730 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:14:11,699 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:14:11,700 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:14:11,706 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:14:17,662 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:14:17,663 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:14:17,670 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:14:27,153 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:14:27,154 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:14:27,161 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:15:02,665 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:15:02,666 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:15:02,670 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:15:10,468 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:15:10,468 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:15:10,472 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:15:17,286 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:15:17,287 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:15:17,289 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:16:49,439 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:16:49,441 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:16:49,443 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:16:49,465 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:16:49,472 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:16:49,473 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/product/src/test/resources
+2025-08-01 01:18:43,503 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:18:43,525 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:18:43,527 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:18:57,440 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:18:57,449 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:18:57,451 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:20:16,730 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:20:16,753 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:20:16,756 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:20:24,941 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:20:24,970 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:20:24,973 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:20:39,119 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:20:39,130 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:20:39,132 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:20:53,771 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:20:53,794 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:20:53,796 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:21:37,917 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:21:37,947 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:21:37,953 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:21:42,069 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:21:42,078 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:21:42,080 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:39:07,372 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:39:07,372 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:39:07,374 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:39:41,838 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:39:41,839 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:39:41,845 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:40:32,667 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:40:32,669 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:40:32,675 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:40:56,345 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:40:56,346 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:40:56,359 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:41:30,225 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:41:30,225 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:41:30,227 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:41:54,945 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:41:54,946 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:41:54,953 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:42:11,020 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:42:11,021 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:42:11,024 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:42:26,604 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:42:26,604 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:42:26,607 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:42:55,928 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:42:55,928 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:42:55,931 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:43:05,108 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:43:05,110 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:43:05,116 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:43:10,353 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:43:10,354 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:43:10,360 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:43:17,508 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:43:17,508 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:43:17,510 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:43:34,981 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:43:34,981 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:43:34,984 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:43:40,757 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:43:40,757 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:43:40,759 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:43:51,604 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:43:51,604 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:43:51,607 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:43:59,176 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:43:59,176 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:43:59,178 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:44:06,023 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:44:06,023 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:44:06,025 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:44:13,179 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:44:13,181 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:44:13,186 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:44:34,840 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:44:34,841 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:44:34,846 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:44:50,128 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:44:50,129 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:44:50,135 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:45:03,131 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:45:03,132 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:45:03,139 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:45:13,362 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:45:13,363 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:45:13,367 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:45:19,394 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:45:19,395 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:45:19,398 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:45:28,975 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:45:28,976 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:45:28,982 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:45:35,781 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:45:35,782 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:45:35,788 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:45:44,171 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:45:44,171 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:45:44,173 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:45:51,938 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:45:51,939 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:45:51,947 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:45:56,005 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:45:56,006 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:45:56,010 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:46:00,264 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:46:00,265 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:46:00,272 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:47:51,890 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:47:51,890 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:47:51,892 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:49:14,338 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:49:14,338 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:49:14,340 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:49:16,543 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:49:16,544 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:49:16,547 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:49:24,036 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:49:24,037 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:49:24,039 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:49:36,716 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:49:36,716 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:49:36,717 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources
+2025-08-01 01:49:49,702 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-08-01 01:49:49,702 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-01 01:49:49,704 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yuvasri-ling/Desktop/microservice/tcrsimplemicroservice/ecom/back-end/configserver/src/test/resources

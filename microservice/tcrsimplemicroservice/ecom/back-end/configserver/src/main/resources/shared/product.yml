@@ -1,0 +1,18 @@
+spring:
+  data:
+    cassandra:
+      contact-points: ${DEV_CASSANDRA_HOST:localhost}
+      port: ${DEV_CASSANDRA_PORT:9042}
+      keyspace-name: ${DEV_CASSANDRA_KEYSPACE:product_dev_keyspace}
+      username: ${DEV_CASSANDRA_USERNAME:lucky}
+      password: ${DEV_CASSANDRA_PASSWORD:{cipher}6cbbbf9d58349ac6990495b827cdd272e26d77b510be1aee9cfa33f130c15175}
+      schema-action: ${DEV_CASSANDRA_SCHEMA_ACTION:create_if_not_exists}
+
+server:
+  port: ${DEV_SERVER_PORT:9001}
+
+logging:
+  level:
+    root: ${DEV_LOG_LEVEL_ROOT:INFO}
+    org.springframework: ${DEV_LOG_LEVEL_SPRING:INFO}
+    com.yourcompany.product: ${DEV_LOG_LEVEL_PRODUCT:DEBUG}

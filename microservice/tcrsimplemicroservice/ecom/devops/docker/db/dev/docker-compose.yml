@@ -1,0 +1,80 @@
+x-mysql-env: &mysql-env
+  MYSQL_USER: lucky
+  MYSQL_PASSWORD: Ling@1603
+  MYSQL_ROOT_PASSWORD: Ling@1603
+
+x-mysql-health: &mysql-health
+  test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+  interval: 10s
+  timeout: 5s
+  retries: 5
+
+x-cassandra-env: &cassandra-env
+  CASSANDRA_DC: "DC1"
+  CASSANDRA_ENDPOINT_SNITCH: GossipingPropertyFileSnitch
+
+x-cassandra-health: &cassandra-health
+  test: ["CMD-SHELL", "cqlsh -e 'describe keyspaces'"]
+  interval: 20s
+  timeout: 10s
+  retries: 5
+
+x-postgres-env: &postgres-env
+  POSTGRES_USER: lucky
+  POSTGRES_PASSWORD: Ling@1603
+
+x-postgres-health: &postgres-health
+  test: ["CMD-SHELL", "pg_isready -U lucky"]
+  interval: 10s
+  timeout: 5s
+  retries: 5
+
+services:
+
+  mysql-cart-dev:
+    image: mysql:8.0
+    container_name: mysql-cart-dev
+    restart: always
+    environment:
+      <<: *mysql-env
+      MYSQL_DATABASE: card-dev
+    ports:
+      - "3307:3306"
+    healthcheck: *mysql-health
+
+  cassandra-product-dev:
+    image: cassandra:4.1
+    container_name: cassandra-product-dev
+    restart: always
+    environment:
+      <<: *cassandra-env
+      CASSANDRA_CLUSTER_NAME: "Dev Cluster"
+    ports:
+      - "9042:9042"
+    healthcheck: *cassandra-health
+    volumes:
+      - cassandra-data:/var/lib/cassandra
+
+  cqlsh:
+    image: cassandra:4.1
+    container_name: cqlsh
+    depends_on:
+      cassandra-product-dev:
+        condition: service_healthy
+    entrypoint: ["cqlsh", "cassandra-product-dev", "9042"]
+    networks:
+      - default
+
+  postgres-wishlist-dev:
+    image: postgres:15
+    container_name: postgres-wishlist-dev
+    restart: always
+    environment:
+      <<: *postgres-env
+      POSTGRES_DB: wishlist_dev
+    ports:
+      - "5433:5432"
+    healthcheck: *postgres-health
+
+volumes:
+  cassandra-data:

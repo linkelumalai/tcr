@@ -1,0 +1,18 @@
+spring:
+  data:
+    cassandra:
+      contact-points: ${PROD_CASSANDRA_HOST:prod-cassandra}
+      port: ${PROD_CASSANDRA_PORT:9043}
+      keyspace-name: ${PROD_CASSANDRA_KEYSPACE:product_prod_keyspace}
+      username: ${PROD_CASSANDRA_USERNAME:lucky}
+      password: ${PROD_CASSANDRA_PASSWORD:{cipher}6cbbbf9d58349ac6990495b827cdd272e26d77b510be1aee9cfa33f130c15175}
+      schema-action: ${PROD_CASSANDRA_SCHEMA_ACTION:validate}
+
+server:
+  port: ${PROD_SERVER_PORT:9901}
+
+logging:
+  level:
+    root: ${PROD_LOG_LEVEL_ROOT:WARN}
+    org.springframework: ${PROD_LOG_LEVEL_SPRING:WARN}
+    com.yourcompany.product: ${PROD_LOG_LEVEL_PRODUCT:INFO}
